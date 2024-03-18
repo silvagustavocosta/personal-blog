@@ -9,16 +9,13 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Gustavo Costa`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Gustavo Costa`,
+      summary: `, electrical engineering student at the University of Brasília, fascinated by artificial intelligence, analog synthesizers, and literature. I aim to organize here everything that captivates me.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A starter blog to write everthing that captivates me.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `kylemathews`,
-    },
   },
   plugins: [
     `gatsby-plugin-image`,

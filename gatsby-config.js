@@ -14,8 +14,8 @@ module.exports = {
       name: `Gustavo Costa`,
       summary: `, electrical engineering student at the University of Brasília, fascinated by artificial intelligence, analog synthesizers, and literature. I aim to organize here everything that captivates me.`,
     },
-    description: `A starter blog to write everthing that captivates me.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Writing everything I'm passionate about in the world of engineering, literature and music.`,
+    siteUrl: `https://gustavocsilva.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-image`,

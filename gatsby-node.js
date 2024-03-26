@@ -85,6 +85,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions
 
+  const express= require('express');
+
+  exports.onCreateDevServer=({app})=>{
+      app.use(express.static('public'))
+  }
+
   // Explicitly define the siteMetadata {} object
   // This way those will always be defined even if removed from gatsby-config.js
 
